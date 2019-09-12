@@ -1,5 +1,21 @@
+body{
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+
 div{
   margin: auto;
+}
+
+footer{
+  background-color: #ff935c;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+p{
+  font-size: 20px;
 }
 
 ul{
@@ -7,15 +23,21 @@ ul{
   width: 60%;
 }
 
+.list-content{
+  font-size: 16px;
+  margin: 8px;
+}
+
 .text{
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
 #image{
-  border-radius: 2%;
+  border-radius: 5%;
   display: block;
   margin: auto;
-  max-width: 1140px;
+  max-width: 800px;
   width: 80%;
 }
 
@@ -23,12 +45,19 @@ ul{
   padding-bottom: 32px;
 }
 
-body{
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
+#main-container{
+  background-color: #f9e090;
+  padding-top: 20px;
+  width: 60%;
 }
 
-/* * { border: 1px solid red; } */
+#title{
+  font-family: font-family: 'Fredoka One', cursive;
+  font-size: 72px;
+}
+
+#tribute-info{
+  font-size: 32px;
+  margin: 32px auto;
+  width: 60%;
+}
